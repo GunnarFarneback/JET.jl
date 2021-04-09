@@ -127,7 +127,10 @@ using LoweredCodeUtils, JuliaInterpreter
 import LoweredCodeUtils:
     istypedef,
     ismethod,
-    callee_matches
+    callee_matches,
+    rng,
+    print_with_code,
+    pushall!
 
 import JuliaInterpreter:
     bypass_builtins,
